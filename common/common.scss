@@ -25,7 +25,6 @@
     margin-left: 100px;
   }
   .btn {
-    color: var(--quaternary);
     height: 100%;
   }
   .search-menu input[type="text"] {
@@ -191,14 +190,14 @@ div.ac-wrap {
 }
 
 .drop-down-mode .d-header-icons .active .icon {
-  border: 1px solid transparent;
+  border: 23px solid transparent;
   .d-icon {
     color: var(--tertiary);
   }
 }
 
 .drop-down-mode .d-header-icons .active .icon:hover {
-  border: 1px solid transparent;
+  border: 12px solid transparent;
 }
 
 .menu-panel .widget-link:hover,
