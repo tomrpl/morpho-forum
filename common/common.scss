@@ -252,10 +252,11 @@ body::before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 100%;
   background: url("https://cdn.morpho.org/images/backgrounds/forum/background-forum.jpg")
     no-repeat center center;
   background-size: cover;
+  //z-index: -1; /* This ensures that the image stays below other content */
 }
 
 .background-container {
@@ -264,8 +265,12 @@ body::before {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: var(--quaternary, transparent);
-  /* Added fallback color as transparent for the var(--quaternary) to show image if --quaternary is not defined */
+  background: rgba(0, 0, 255, 0.5); /* This is a semi-transparent blue */
+  /* If you still want to use your custom property --quaternary, 
+  make sure it's defined somewhere in your CSS and that it's an rgba color value 
+  to allow some transparency. For example:
+  background: var(--quaternary, rgba(0,0,255,0.5));
+  This will use --quaternary if it's defined, and the semi-transparent blue if it's not */
 }
 
 html body #main-outlet {
