@@ -64,6 +64,7 @@
 .display-search-banner {
   #main-outlet {
     padding-top: 2em;
+    margin-left: 100px;
   }
 }
 
@@ -275,7 +276,8 @@ html body #main-outlet {
   background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
-  max-width: 1150px;
+  max-width: 1400px;
+  margin-left: 100px;
   .archetype-regular & {
     min-height: 500px;
   }
