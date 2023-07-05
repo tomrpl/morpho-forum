@@ -7,7 +7,7 @@
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
-  max-width: unset;
+  max-width: 1400px;
   color: var(--secondary);
   h1 {
     font-size: 96px;
@@ -190,14 +190,14 @@ div.ac-wrap {
 }
 
 .drop-down-mode .d-header-icons .active .icon {
-  border: 23px solid transparent;
+  border: 1px solid transparent;
   .d-icon {
     color: var(--tertiary);
   }
 }
 
 .drop-down-mode .d-header-icons .active .icon:hover {
-  border: 12px solid transparent;
+  border: 1px solid transparent;
 }
 
 .menu-panel .widget-link:hover,
@@ -489,7 +489,7 @@ html body #main-outlet {
 
 // published page additions
 .published-page-content-wrapper {
-  max-width: 1000px;
+  max-width: 1400px;
   margin-top: 30px;
   margin-bottom: 50px;
   background: var(--secondary);
