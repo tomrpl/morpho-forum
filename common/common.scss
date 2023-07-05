@@ -1,3 +1,9 @@
+.image-bg {
+  background-image: image-url("background.jpg");
+  background-size: cover; /* Cover the entire area of the element */
+  background-position: top; /* Center the image */
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -5,11 +11,13 @@
   color: var(--secondary);
   h1 {
     font-size: 4em;
+    text-align: left;
   }
   p {
     font-size: 1.25em !important;
     font-weight: bold;
     margin-bottom: 1em;
+    text-align: left;
   }
   .btn {
     height: 100%;
