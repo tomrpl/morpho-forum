@@ -60,6 +60,7 @@
 
 .search-input {
   border-radius: 0.25em;
+  color: var(--quaternary);
 }
 
 .display-search-banner {
@@ -174,7 +175,6 @@ div.ac-wrap {
   border-radius: 0.25em;
   border: 1px solid transparent;
   svg {
-    margin-left: 100px;
     font-size: 1.25em;
   }
 }
