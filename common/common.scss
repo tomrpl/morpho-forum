@@ -263,8 +263,12 @@ html body #main-outlet {
   border-radius: 1em;
   padding: 3em 3em 5%;
   max-width: 1400px;
+
   .archetype-regular & {
     min-height: 500px;
+  }
+  .archetype-regular .wrap {
+    max-width: 1400px;
   }
   @media screen and (max-width: 700px) {
     padding: 1.5em;
