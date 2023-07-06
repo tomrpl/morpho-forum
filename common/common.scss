@@ -256,6 +256,10 @@ body {
   This will use --quaternary if it's defined, and the semi-transparent blue if it's not */
 }
 
+:root {
+  --d-max-width: 1410px;
+}
+
 html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
