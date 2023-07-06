@@ -19,6 +19,7 @@ html body.has-sidebar-page.has-full-page-chat {
   .full-page-chat {
     grid-template-rows: calc(var(--full-page-chat-height) - 50px);
   }
+  max-width: 1400px;
 }
 
 @media screen and (max-width: 1366px) {
