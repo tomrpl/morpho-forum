@@ -16,10 +16,10 @@ html body.has-sidebar-page.has-full-page-chat {
 .has-full-page-chat #main-outlet.wrap {
   margin-bottom: 30px;
   padding-bottom: 0px !important;
+  max-width: 1500px !important;
   .full-page-chat {
     grid-template-rows: calc(var(--full-page-chat-height) - 50px);
   }
-  max-width: 1400px;
 }
 
 @media screen and (max-width: 1366px) {
