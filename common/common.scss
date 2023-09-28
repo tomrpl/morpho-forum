@@ -318,23 +318,36 @@ html body #main-outlet {
 
   .topic-list-header {
     .topic-list-data.default {
-      width: 70%;
+      width: 76%;
     }
     .topic-list-data.num.posts-map.posts {
-      width: 10%;
+      width: 8%;
     }
     .topic-list-data.num.views {
-      width: 10%;
+      width: 8%;
     }
     .topic-list-data.num.age {
-      width: 10%;
+      width: 8%;
+    }
+  }
+  .topic-list-item {
+    .topic-list-data.default {
+      width: 76%;
+    }
+    .topic-list-data.num.posts-map.posts {
+      width: 8%;
+    }
+    .topic-list-data.num.views {
+      width: 8%;
+    }
+    .topic-list-data.num.age {
+      width: 8%;
     }
   }
   .topic-list-body {
     display: contents;
     .topic-list-item-separator {
       width: 100%;
-      // margin: 0.75em 0;
       display: flex;
       .topic-list-data {
         width: 100%;
@@ -348,8 +361,6 @@ html body #main-outlet {
       border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
-      // transition: box-shadow 100ms ease-in-out;
-      // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       overflow: hidden;
 
       &.visited {
@@ -357,56 +368,30 @@ html body #main-outlet {
         .discourse-tag {
           opacity: 0.9;
         }
-        // &:hover {
-        //   border: 1px solid rgba(var(--primary-rgb), 0.25);
-        //   .discourse-tag {
-        //     opacity: 1;
-        //   }
-        // }
       }
-      // &:hover {
-      //   background-color: var(--secondary);
-      //   // box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
-      //   border: 1px solid rgba(var(--primary-rgb), 0.3);
-      //   a.title:not(.badge-notification),
-      //   a.topic-excerpt {
-      //     color: var(--primary) !important;
-      //   }
-      // }
-      // .topic-list-data.main-link {
-      //   width: 70%;
-      //   order: 1;
-      // }
-      // .topic-list-data.posts {
-      //   width: 10%;
-      //   order: 2;
-      //   display: flex;
-      //   justify-content: center;
-      //   align-items: center;
-      // }
       .topic-list-data.default {
-        width: 70%;
+        width: 76%;
         order: 1;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-data.num.posts-map.posts {
-        width: 10%;
+        width: 8%;
         order: 2;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-data.num.views {
-        width: 10%;
+        width: 8%;
         order: 3;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-data.age {
-        width: 10%;
+        width: 8%;
         order: 4;
         display: flex;
         justify-content: center;
