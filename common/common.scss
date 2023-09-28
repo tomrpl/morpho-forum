@@ -313,9 +313,9 @@ html body #main-outlet {
     .topic-list-data.default {
       width: 63%;
     }
-    // .topic-list-data.posts {
-    //   width: 10%;
-    // }
+    .topic-list-data.posts {
+      width: 10%;
+    }
     .topic-list-data.activity {
       width: 10%;
     }
@@ -369,13 +369,13 @@ html body #main-outlet {
         width: 63%;
         order: 2;
       }
-      // .topic-list-data.posts {
-      //   width: 15%;
-      //   order: 3;
-      //   display: flex;
-      //   justify-content: center;
-      //   align-items: center;
-      // }
+      .topic-list-data.posts {
+        width: 15%;
+        order: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .topic-list-data.age {
         width: 10%;
         order: 4;
