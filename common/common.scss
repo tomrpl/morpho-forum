@@ -106,16 +106,15 @@
 }
 
 .discourse-tag {
-  // font-size: $font-down-1;
-  // border-radius: 0.25em;
-  // padding: 0.15em 0.25em 0.15em 0.35em;
-  // background-color: var(--primary-low);
-  // color: var(--primary) !important;
-  // &:hover {
-  //   background-color: var(--primary-low-mid);
-  //   color: var(--primary);
-  // }
-  display: none;
+  font-size: $font-down-1;
+  border-radius: 0.25em;
+  padding: 0.15em 0.25em 0.15em 0.35em;
+  background-color: var(--primary-low);
+  color: var(--primary) !important;
+  &:hover {
+    background-color: var(--primary-low-mid);
+    color: var(--primary);
+  }
 }
 
 .discourse-tags .discourse-tag.simple:not(:last-child)::after,
@@ -124,11 +123,6 @@
   content: "";
   margin-left: unset;
 }
-
-// .topic-list .link-bottom-line .discourse-tag.simple:after,
-// .topic-list .link-bottom-line .discourse-tag.box {
-//   display: none;
-// }
 
 #site-text-logo {
   color: var(--primary);
@@ -498,6 +492,8 @@ td.posters.topic-list-data {
 a.badge-wrapper.bullet .category-name {
   display: none;
 }
+
+//this is working
 tr.topic-list-item.category-governance-governance
   td.main-link.clearfix.topic-list-data
   div.link-bottom-line
