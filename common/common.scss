@@ -3,7 +3,7 @@
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: 1400px;
-  color: var(--secondary);
+  color: var(--white);
   h1 {
     font-size: 96px;
     font-family: "Inter", sans-serif;
@@ -34,14 +34,14 @@
     color: rgba(var(--primary-rgb), 0.75);
     border-radius: 0.5em;
     padding: 0.5em;
-    background-color: rgba(var(--secondary-rgb), 0.25);
+    background-color: rgba(var(--white-rgb), 0.25);
     &:hover {
       color: var(--primary);
     }
   }
   .search-menu .search-input {
-    border-color: var(--tertiary-hover);
-    outline: 1px solid var(--tertiary-hover);
+    border-color: var(--primary-hover);
+    outline: 1px solid var(--primary-hover);
   }
   .results {
     top: 43px;
@@ -55,7 +55,7 @@
 
 .search-input {
   border-radius: 0.25em;
-  color: var(--quaternary);
+  color: var(--primary);
 }
 
 .display-search-banner {
@@ -128,7 +128,7 @@
   color: var(--primary);
 }
 .list-controls .navigation-container .category-breadcrumb {
-  color: var(--quaternary);
+  color: var(--primary);
 }
 .mobile-view {
   .cm-header-links {
@@ -164,7 +164,7 @@ div.ac-wrap {
 
 .d-header-icons .d-icon {
   border-radius: 100px;
-  color: var(--quaternary);
+  color: var(--primary);
 }
 
 .d-header-icons .icon {
@@ -182,13 +182,13 @@ div.ac-wrap {
 .menu-panel.drop-down {
   margin-top: 1em;
   border-radius: 0.5em;
-  border: 1px solid var(--text_color);
+  border: 1px solid var(--text);
 }
 
 .drop-down-mode .d-header-icons .active .icon {
   border: 1px solid transparent;
   .d-icon {
-    color: var(--tertiary);
+    color: var(--primary);
   }
 }
 
@@ -200,7 +200,7 @@ div.ac-wrap {
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
 .menu-panel .categories-link:focus {
-  background-color: rgba(var(--tertiary-rgb), 0.5);
+  background-color: rgba(var(--primary-rgb), 0.5);
 }
 
 .btn:not(.themes-tab):not(.components-tab),
@@ -216,15 +216,15 @@ div.ac-wrap {
 }
 
 .unread-high-priority-notifications {
-  background: var(--quaternary);
+  background: var(--primary);
 }
 
 .timeline-container .topic-timeline .timeline-handle {
-  background-color: var(--tertiary);
+  background-color: var(--primary);
 }
 
 .timeline-container .topic-timeline .timeline-scrollarea {
-  border-left-color: var(--tertiary);
+  border-left-color: var(--primary);
 }
 
 // graceful ish style
@@ -249,11 +249,11 @@ body {
   height: 100vh;
   width: 100vw;
   background: rgba(255, 255, 255, 0.1); /* This is a semi-transparent blue */
-  /* If you still want to use your custom property --quaternary, 
+  /* If you still want to use your custom property --primary, 
   make sure it's defined somewhere in your CSS and that it's an rgba color value 
   to allow some transparency. For example:
-  background: var(--quaternary, rgba(0,0,255,0.5));
-  This will use --quaternary if it's defined, and the semi-transparent blue if it's not */
+  background: var(--primary, rgba(0,0,255,0.5));
+  This will use --primary if it's defined, and the semi-transparent blue if it's not */
 }
 
 :root {
@@ -264,7 +264,7 @@ body {
 html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
-  background: var(--secondary);
+  background: var(--white);
   border-radius: 1em;
   padding: 3em 3em 5%;
   max-width: 1400px;
@@ -297,11 +297,11 @@ html body #main-outlet {
 // Topic List
 
 @keyframes background-fade-highlight {
-  0% {
+  40% {
     background-color: var(--highlight-low);
   }
   100% {
-    background-color: var(--secondary);
+    background-color: var(--white);
   }
 }
 
@@ -337,32 +337,32 @@ html body #main-outlet {
       width: 100%;
       display: flex;
       margin-bottom: 0.5em;
-      background-color: var(--secondary);
-      border: 1px solid rgba(var(--text_color-rgb), 0.2);
+      background-color: var(--white);
+      border: 1px solid rgba(var(--text-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       // transition: box-shadow 100ms ease-in-out;
       // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       overflow: hidden;
       &.visited {
-        border: 1px solid rgba(var(--text_color-rgb), 0.1);
+        border: 1px solid rgba(var(--text-rgb), 0.1);
         .discourse-tag {
           opacity: 0.75;
         }
         &:hover {
-          border: 1px solid rgba(var(--text_color-rgb), 0.25);
+          border: 1px solid rgba(var(--text-rgb), 0.25);
           .discourse-tag {
             opacity: 1;
           }
         }
       }
       &:hover {
-        background-color: var(--secondary);
+        background-color: var(--white);
         // box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
-        border: 1px solid rgba(var(--text_color-rgb), 0.3);
+        border: 1px solid rgba(var(--text-rgb), 0.3);
         a.title:not(.badge-notification),
         a.topic-excerpt {
-          color: var(--text_color) !important;
+          color: var(--text) !important;
         }
       }
       .topic-list-data.main-link {
@@ -443,11 +443,11 @@ html body #main-outlet {
     }
     .post-activity {
       .d-icon-reply {
-        color: var(--text_color-medium);
+        color: var(--text-medium);
         margin-right: 0.25em;
       }
       .relative-date {
-        color: var(--text_color-medium);
+        color: var(--text-medium);
       }
     }
   }
@@ -455,7 +455,7 @@ html body #main-outlet {
 
 .navigation-container {
   margin-top: 2em;
-  color: var(--quaternary);
+  color: var(--primary);
 }
 
 // published page additions
@@ -463,7 +463,7 @@ html body #main-outlet {
   max-width: 1400px;
   margin-top: 30px;
   margin-bottom: 50px;
-  background: var(--secondary);
+  background: var(--white);
   border-radius: 1em;
   padding: 3em 3em 5%;
   // box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
@@ -481,8 +481,8 @@ html body #main-outlet {
   &::before {
     background: linear-gradient(
       90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
+      var(--primary-hover) 0%,
+      var(--primary) 100%
     );
     clip-path: ellipse(148% 70% at 91% -14%);
     content: "";
@@ -495,6 +495,6 @@ html body #main-outlet {
 }
 
 .quote-button {
-  background-color: var(--text_color-low-mid);
+  background-color: var(--text-low-mid);
   border-radius: 0.5em;
 }
