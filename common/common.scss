@@ -267,7 +267,8 @@ body {
 html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
-  background: var(--secondary);
+  background: var(--white);
+  border: 3px solid var(--danger);
   border-radius: 1em;
   padding: 3em 3em 5%;
   max-width: 1400px;
