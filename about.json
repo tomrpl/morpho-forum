@@ -10,8 +10,11 @@
     "morpho-light": {
       "pure_white": "ffffff",
       "white": "fafafa",
-      "text": "2f2f2f",
-      "primary": "005bc3",
+      "blue": "005bc3",
+      "primary": "2f2f2f",
+      "secondary": "f9fcff",
+      "tertiary": "3877e5",
+      "quaternary": "056Ce2",
       "header_background": "f9fcff",
       "header_primary": "122b43",
       "highlight": "e6cb37",
