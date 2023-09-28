@@ -15,7 +15,7 @@ html
   #main-outlet {
   width: calc(100% - 1em);
   padding: 0em 0.5em 1em 0.5em;
-  box-shadow: none;
+  // box-shadow: none;
   background-color: transparent;
 }
 
@@ -78,7 +78,7 @@ ol.category-breadcrumb {
   .drop {
     top: calc(100% + 0.5em);
     border-radius: 8px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -122,7 +122,7 @@ ol.category-breadcrumb {
   background: var(--secondary);
   padding: 1em;
   border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 0.5em;
 }
@@ -142,7 +142,7 @@ ol.category-breadcrumb {
 .full-width .contents .topic-list .topic-list-header {
   background-color: var(--secondary);
   border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 1em;
 }
