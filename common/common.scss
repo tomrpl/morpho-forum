@@ -319,10 +319,13 @@ html body #main-outlet {
       width: 63%;
     }
     .topic-list-data.posts {
-      width: 15%;
+      width: 10%;
     }
     .topic-list-data.activity {
-      width: 15%;
+      width: 10%;
+    }
+    .topic-list-data.num.views {
+      width: 10%;
     }
   }
   .topic-list-body {
