@@ -351,12 +351,12 @@ html body #main-outlet {
         .discourse-tag {
           opacity: 0.75;
         }
-        &:hover {
-          border: 1px solid rgba(var(--primary-rgb), 0.25);
-          .discourse-tag {
-            opacity: 1;
-          }
-        }
+        // &:hover {
+        //   border: 1px solid rgba(var(--primary-rgb), 0.25);
+        //   .discourse-tag {
+        //     opacity: 1;
+        //   }
+        // }
       }
       // &:hover {
       //   background-color: var(--secondary);
