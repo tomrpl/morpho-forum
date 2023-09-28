@@ -378,6 +378,13 @@ html body #main-outlet {
       //   justify-content: center;
       //   align-items: center;
       // }
+      .topic-list-data.replies {
+        width: 10%;
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .topic-list-data.num.views {
         width: 10%;
         order: 3;
