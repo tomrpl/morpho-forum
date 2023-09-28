@@ -296,14 +296,14 @@ html body #main-outlet {
 
 // Topic List
 
-@keyframes background-fade-highlight {
-  0% {
-    background-color: var(--highlight-low);
-  }
-  100% {
-    background-color: var(--secondary);
-  }
-}
+// @keyframes background-fade-highlight {
+//   0% {
+//     background-color: var(--highlight-low);
+//   }
+//   100% {
+//     background-color: var(--secondary);
+//   }
+// }
 
 .full-width .contents .topic-list {
   border-collapse: separate;
