@@ -432,18 +432,6 @@ html body #main-outlet {
         font-weight: 700;
         line-height: 170%;
       }
-      // .link-area {
-      //   display: flex;
-      //   .link-title-area {
-      //     margin-right: 1em;
-      //     font-size: $font-up-1;
-      //   }
-      //   .link-meta-area {
-      //     font-size: $font-down-3;
-      //     display: flex;
-      //     align-items: center;
-      //   }
-      // }
     }
     .posts-map {
       position: relative;
@@ -515,6 +503,9 @@ html body #main-outlet {
 }
 
 td.posters.topic-list-data {
+  display: none;
+}
+th.posters.topic-list-data {
   display: none;
 }
 // .topic-list tr.selected td:nth-child(2),
