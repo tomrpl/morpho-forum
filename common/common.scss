@@ -514,6 +514,9 @@ html body #main-outlet {
   border-radius: 0.5em;
 }
 
+td.posters.topic-list-data {
+  display: none;
+}
 // .topic-list tr.selected td:nth-child(2),
 // .topic-list-item.selected td:nth-child(2),
 // .latest-topic-list-item.selected,
