@@ -252,12 +252,7 @@ body {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: var(--white); /* This is a semi-transparent blue */
-  /* If you still want to use your custom property --quaternary, 
-  make sure it's defined somewhere in your CSS and that it's an rgba color value 
-  to allow some transparency. For example:
-  background: var(--quaternary, rgba(0,0,255,0.5));
-  This will use --quaternary if it's defined, and the semi-transparent blue if it's not */
+  background: var(--whitebis);
 }
 
 :root {
@@ -314,14 +309,15 @@ html body #main-outlet {
   border-collapse: separate;
   border-spacing: 0 0.25em;
   display: contents;
+
   .topic-list-header {
     .topic-list-data.default {
-      width: 63%;
-    }
-    .topic-list-data.posts {
-      width: 10%;
+      width: 70%;
     }
     .topic-list-data.activity {
+      width: 10%;
+    }
+    .topic-list-data.num.views {
       width: 10%;
     }
     .topic-list-data.num.views {
@@ -349,6 +345,7 @@ html body #main-outlet {
       // transition: box-shadow 100ms ease-in-out;
       // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       overflow: hidden;
+
       &.visited {
         border: 1px solid rgba(var(--primary-rgb), 0.1);
         .discourse-tag {
@@ -371,11 +368,18 @@ html body #main-outlet {
         }
       }
       .topic-list-data.main-link {
-        width: 63%;
-        order: 2;
+        width: 70%;
+        order: 1;
       }
       .topic-list-data.posts {
-        width: 15%;
+        width: 10%;
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .topic-list-data.num.views {
+        width: 10%;
         order: 3;
         display: flex;
         justify-content: center;
@@ -434,12 +438,6 @@ html body #main-outlet {
         }
       }
     }
-    .posts-map,
-    .num.age.activity {
-      a {
-        padding: 0;
-      }
-    }
     .posts-map {
       position: relative;
       .number {
@@ -447,12 +445,17 @@ html body #main-outlet {
       }
     }
     .post-activity {
-      .d-icon-reply {
-        color: var(--primary-medium);
-        margin-right: 0.25em;
-      }
+      // .d-icon-reply {
+      //   color: var(--primary-medium);
+      //   margin-right: 0.25em;
+      // }
       .relative-date {
         color: var(--primary-medium);
+      }
+      .num.age.activity {
+        a {
+          padding: 0;
+        }
       }
     }
   }
