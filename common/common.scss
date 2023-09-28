@@ -378,6 +378,13 @@ html body #main-outlet {
       //   justify-content: center;
       //   align-items: center;
       // }
+      .topic-list-data.default {
+        width: 70%;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .topic-list-data.num.posts-map.posts {
         width: 10%;
         order: 2;
@@ -420,7 +427,6 @@ html body #main-outlet {
 .full-width .contents .topic-list {
   .topic-list-item {
     .main-link {
-      min-height: 100%;
       min-height: 100%;
       .link-top-line {
         display: block;
