@@ -123,7 +123,6 @@
 .search-category .discourse-tag.simple:not(:last-child)::after {
   content: "";
   margin-left: unset;
-  display: none;
 }
 
 .topic-list .link-bottom-line .discourse-tag.simple:after,
@@ -494,6 +493,9 @@ html body #main-outlet {
 }
 
 td.posters.topic-list-data {
+  display: none;
+}
+td.discourse-tags.topic-list-data {
   display: none;
 }
 th.posters.topic-list-data {
