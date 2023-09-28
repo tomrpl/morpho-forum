@@ -1,3 +1,4 @@
+// handle the padding by hand, easier!
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 //custom search banner customization
 .custom-search-banner-wrap {
@@ -73,6 +74,7 @@
 .topic-list .topic-list-header .topic-list-data,
 .topic-list .topic-list-item .topic-list-data {
   width: 100%;
+  padding: 1em 1em;
 }
 
 .navigation-topics .topic-list .topic-list-body .topic-list-data,
