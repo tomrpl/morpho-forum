@@ -513,7 +513,7 @@ html body #main-outlet {
   box-shadow: none;
 }
 
-.topic-list .main-link.focused + .posters {
+.topic-list .main-link.focused {
   box-shadow: inset 3px 0 0 var(--tertiary);
 }
 
