@@ -314,15 +314,15 @@ html body #main-outlet {
     .topic-list-data.default {
       width: 70%;
     }
-    .topic-list-data.activity {
-      width: 10%;
-    }
-    .topic-list-data.num.views {
-      width: 10%;
-    }
-    .topic-list-data.num.views {
-      width: 10%;
-    }
+    // .topic-list-data.activity {
+    //   width: 10%;
+    // }
+    // .topic-list-data.num.views {
+    //   width: 10%;
+    // }
+    // .topic-list-data.num.views {
+    //   width: 10%;
+    // }
   }
   .topic-list-body {
     display: contents;
@@ -367,10 +367,10 @@ html body #main-outlet {
           color: var(--primary) !important;
         }
       }
-      .topic-list-data.main-link {
-        width: 70%;
-        order: 1;
-      }
+      // .topic-list-data.main-link {
+      //   width: 70%;
+      //   order: 1;
+      // }
       // .topic-list-data.posts {
       //   width: 10%;
       //   order: 2;
@@ -378,20 +378,20 @@ html body #main-outlet {
       //   justify-content: center;
       //   align-items: center;
       // }
-      .topic-list-data.num.views {
-        width: 10%;
-        order: 3;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .topic-list-data.age {
-        width: 10%;
-        order: 4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+      // .topic-list-data.num.views {
+      //   width: 10%;
+      //   order: 3;
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      // }
+      // .topic-list-data.age {
+      //   width: 10%;
+      //   order: 4;
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      // }
     }
   }
 }
