@@ -157,7 +157,7 @@ input[type="color"],
 .select-kit.combo-box .select-kit-header,
 .d-editor-textarea-wrapper,
 div.ac-wrap {
-  border-radius: 4px;
+  border-radius: 5px;
 }
 // .d-header {
 //   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
@@ -443,7 +443,7 @@ html body #main-outlet {
 
 .navigation-container {
   // margin-top: 2em;
-  color: var(--quaternary);
+  color: var(--quaternary) !important;
 }
 
 // published page additions
