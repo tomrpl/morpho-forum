@@ -515,6 +515,14 @@ tr.topic-list-item.category-governance-governance
   display: none;
 }
 
+td.main-link.clearfix.topic-list-data
+  div.link-bottom-line
+  a.badge-wrapper.bullet
+  span.badge-category
+  span.badge-category-parent-bg {
+  display: none;
+}
+
 th.posters.topic-list-data {
   display: none;
 }
