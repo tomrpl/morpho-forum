@@ -314,15 +314,15 @@ html body #main-outlet {
     .topic-list-data.default {
       width: 70%;
     }
-    // .topic-list-data.activity {
-    //   width: 10%;
-    // }
-    // .topic-list-data.num.views {
-    //   width: 10%;
-    // }
-    // .topic-list-data.num.views {
-    //   width: 10%;
-    // }
+    .topic-list-data.num.posts-map.posts {
+      width: 10%;
+    }
+    .topic-list-data.num.views {
+      width: 10%;
+    }
+    .topic-list-data.num.age {
+      width: 10%;
+    }
   }
   .topic-list-body {
     display: contents;
