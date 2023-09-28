@@ -417,7 +417,7 @@ html body #main-outlet {
       min-height: 100%;
       .link-top-line {
         display: block;
-        margin-bottom: 0.25em;
+        // margin-bottom: 0.25em;
       }
       .title {
         font-size: 20px;
@@ -425,18 +425,18 @@ html body #main-outlet {
         font-weight: 700;
         line-height: 170%;
       }
-      .link-area {
-        display: flex;
-        .link-title-area {
-          margin-right: 1em;
-          font-size: $font-up-1;
-        }
-        .link-meta-area {
-          font-size: $font-down-3;
-          display: flex;
-          align-items: center;
-        }
-      }
+      // .link-area {
+      //   display: flex;
+      //   .link-title-area {
+      //     margin-right: 1em;
+      //     font-size: $font-up-1;
+      //   }
+      //   .link-meta-area {
+      //     font-size: $font-down-3;
+      //     display: flex;
+      //     align-items: center;
+      //   }
+      // }
     }
     .posts-map {
       position: relative;
