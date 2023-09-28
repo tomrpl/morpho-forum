@@ -28,6 +28,7 @@
     border-radius: 0.25em;
     min-height: 40px;
     &:focus {
+      color: var(--text);
       outline: 3px solid rgba(var(--primary-rgb), 0.35);
     }
   }
