@@ -317,6 +317,7 @@ html body #main-outlet {
   display: contents;
 
   .topic-list-header {
+    min-width: 100%;
     .topic-list-data.default {
       width: 76%;
     }
