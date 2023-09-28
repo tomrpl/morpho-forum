@@ -71,7 +71,7 @@ ol.category-breadcrumb {
     background-color: var(--secondary);
     a:hover,
     a:focus {
-      color: var(--primary);
+      color: var(--text);
       background-color: var(--secondary);
     }
   }
@@ -143,6 +143,6 @@ ol.category-breadcrumb {
   background-color: var(--secondary);
   border-radius: 8px;
   // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(var(--primary-rgb), 0.1);
+  border: 1px solid rgba(var(--text-rgb), 0.1);
   margin-bottom: 1em;
 }
