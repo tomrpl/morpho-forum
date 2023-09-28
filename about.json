@@ -2,12 +2,7 @@
   "name": "Morpho Theme",
   "about_url": null,
   "license_url": null,
-  "components": [
-    "https://github.com/tomrpl/morpho-categories-boxes",
-    "https://github.com/discourse/discourse-loading-slider.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
-  ],
+  "components": ["https://github.com/discourse/discourse-clickable-topic.git"],
   "modifiers": {
     "serialize_topic_excerpts": true
   },
