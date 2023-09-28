@@ -125,10 +125,10 @@
   margin-left: unset;
 }
 
-.topic-list .link-bottom-line .discourse-tag.simple:after,
-.topic-list .link-bottom-line .discourse-tag.box {
-  display: none;
-}
+// .topic-list .link-bottom-line .discourse-tag.simple:after,
+// .topic-list .link-bottom-line .discourse-tag.box {
+//   display: none;
+// }
 
 #site-text-logo {
   color: var(--primary);
@@ -496,6 +496,10 @@ td.posters.topic-list-data {
   display: none;
 }
 td.discourse-tags {
+  display: none;
+}
+
+.topic-list-data.discourse-tags {
   display: none;
 }
 
