@@ -520,12 +520,10 @@ tr.topic-list-item.category-governance-governance
   display: none;
 }
 
+.badge-category-parent-bg,
+.badge-category-bg {
+  background-color: transparent !important;
+}
 th.posters.topic-list-data {
   display: none;
 }
-// .topic-list tr.selected td:nth-child(2),
-// .topic-list-item.selected td:nth-child(2),
-// .latest-topic-list-item.selected,
-// .search-results .fps-result.selected {
-//   box-shadow: inset 3px 0 0 var(--danger);
-// }
