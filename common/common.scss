@@ -353,13 +353,13 @@ html body #main-outlet {
       display: flex;
       margin-bottom: 0.5em;
       background-color: var(--white);
-      border: 1px solid rgba(var(--primary-rgb), 0.1);
+      border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       overflow: hidden;
 
       &.visited {
-        border: 1px solid rgba(var(--primary-rgb), 0.1);
+        border: 1px solid rgba(var(--primary-rgb), 0.2);
       }
       .topic-list-data.default {
         width: 76%;
