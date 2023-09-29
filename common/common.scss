@@ -390,8 +390,7 @@ html body #main-outlet {
   align-content: center;
   align-items: center;
 }
-
-.full-width .contents .topic-list {
+.topic-list-item.contents .full-width .contents .topic-list {
   .topic-list-item {
     .main-link {
       min-height: 100%;
@@ -405,7 +404,7 @@ html body #main-outlet {
         font-weight: 700;
         line-height: 170%;
       }
-      .posts-map {
+      .contents {
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
