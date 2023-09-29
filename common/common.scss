@@ -72,6 +72,9 @@
   margin: 1em 0;
 }
 
+.topic-list .topic-list-header .topic-list-data {
+  color: var(--text);
+}
 .topic-list .topic-list-header .topic-list-data,
 .topic-list .topic-list-item .topic-list-data {
   width: 100%;
@@ -109,15 +112,6 @@
 }
 
 .discourse-tag {
-  // font-size: $font-down-1;
-  // border-radius: 0.25em;
-  // padding: 0.15em 0.25em 0.15em 0.35em;
-  // background-color: var(--primary-low);
-  // color: var(--primary) !important;
-  // &:hover {
-  //   background-color: var(--primary-low-mid);
-  //   color: var(--primary);
-  // }
   display: none;
 }
 
