@@ -277,19 +277,19 @@ html body #main-outlet {
   }
 }
 //Original:
-// .nav-pills:not(.user-nav) > li a.active,
-// .nav-pills:not(.user-nav) > li > a {
-//   border-radius: 0.5em;
-// }
+.nav-pills:not(.user-nav) > li a.active,
+.nav-pills:not(.user-nav) > li > a {
+  border-radius: 0.5em;
+}
 
 //
 
-.nav-pills:not(.user-nav) > li a.active,
-.nav-pills:not(.user-nav) > li > a {
-  color: var(--secondary) !important;
-  background-color: var(--quaternary) !important;
-  border-radius: 0.5em;
-}
+// .nav-pills:not(.user-nav) > li a.active,
+// .nav-pills:not(.user-nav) > li > a {
+//   color: var(--secondary) !important;
+//   background-color: var(--quaternary) !important;
+//   border-radius: 0.5em;
+// }
 // .nav-pills:not(.user-nav) > li > a {
 //   border-radius: 0.5em;
 // }
