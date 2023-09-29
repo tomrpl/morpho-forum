@@ -8,10 +8,10 @@
   },
   "color_schemes": {
     "morpho-light": {
-      "primary": "2f2f2f", // text - black
-      "secondary": "ffffff", // white - deep
-      "tertiary": "fafafa", // white not deep
-      "quaternary": "005bc3", // blue
+      "primary": "2f2f2f",
+      "secondary": "ffffff",
+      "tertiary": "fbfbfb",
+      "quaternary": "005bc3",
       "header_background": "ffffff",
       "header_primary": "122b43",
       "highlight": "e6cb37",
