@@ -89,7 +89,9 @@
   border-radius: 0.25em;
   overflow: hidden;
 }
-
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification) {
+  color: var(--primary) !important;
+}
 .badge-wrapper.bullet {
   .badge-category-bg {
     border-radius: 0.125em;
