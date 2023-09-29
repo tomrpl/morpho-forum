@@ -321,15 +321,27 @@ html body #main-outlet {
     // display: flex;
     .topic-list-data.default {
       width: 76% !important;
+      display: flex;
+      justify-content: left;
+      align-items: center;
     }
     .topic-list-data.num.posts {
       width: 8% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .topic-list-data.num.views {
       width: 8% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .topic-list-data.num.age {
       width: 8% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   .topic-list-item {
