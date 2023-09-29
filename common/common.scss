@@ -318,7 +318,7 @@ html body #main-outlet {
 
   .topic-list-header {
     width: 100%;
-    border: 1px solid red;
+    border: 1px solid red !important;
     border-radius: 1em;
     // display: flex;
     .topic-list-data.default {
