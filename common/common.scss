@@ -75,14 +75,13 @@
 .topic-list .topic-list-header .topic-list-data {
   color: var(--primary) !important;
 }
-
+.topic-list .topic-list-header .topic-list-data,
 .topic-list .topic-list-item .topic-list-data {
   width: 100%;
   padding: 1em 1em;
 }
 .topic-list .topic-list-header .topic-list-data.default {
-  width: 100%;
-  padding: 0em, 1em, 0em, 0em;
+  padding: 0em, 1em;
 }
 .navigation-topics .topic-list .topic-list-body .topic-list-data,
 .navigation-topics .topic-list .topic-list-header .topic-list-data {
