@@ -281,10 +281,22 @@ html body #main-outlet {
 .nav-pills {
   color: var(--quarternary) !important;
 }
-.nav-pills:not(.user-nav) > li > a {
-  border-radius: 0.5em;
+// .nav-pills:not(.user-nav) > li > a {
+//   border-radius: 0.5em;
+// }
+
+.user-nav .nav-pills > li > a {
+  border-radius: 0.5em; /* you can adjust the value as needed */
+  color: white;
+  background-color: rgb(60, 200, 50);
 }
 
+/* Style for .nav-pills NOT inside .user-nav */
+.nav-pills:not(.user-nav) > li > a {
+  color: rgb(255, 0, 25);
+  background-color: transparent; /* ensure no background color */
+  border-radius: 0; /* ensures no border radius, though it might be redundant */
+}
 // Topic List
 
 // @keyframes background-fade-highlight {
