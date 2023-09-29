@@ -278,9 +278,9 @@ html body #main-outlet {
 }
 
 // .nav-pills:not(.user-nav) > li a.active,
-.nav-pills:not(.user-nav) > li > a {
-  border-radius: 0.5em;
-}
+// .nav-pills:not(.user-nav) > li > a {
+//   border-radius: 0.5em;
+// }
 
 // Topic List
 
@@ -347,7 +347,7 @@ html body #main-outlet {
       overflow: hidden;
 
       &.visited {
-        border: 1px solid rgba(var(--primary-rgb), 0.2);
+        border: 1px solid rgba(var(--primary-rgb), 0.3);
       }
       .topic-list-data.default {
         width: 76%;
