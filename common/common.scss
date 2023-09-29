@@ -319,16 +319,16 @@ html body #main-outlet {
   .topic-list-header {
     min-width: 100%;
     .topic-list-data.default {
-      width: 76%;
+      width: 76% !important;
     }
     .topic-list-data.num.posts {
-      width: 8%;
+      width: 8% !important;
     }
     .topic-list-data.num.views {
-      width: 8%;
+      width: 8% !important;
     }
     .topic-list-data.num.age {
-      width: 8%;
+      width: 8% !important;
     }
   }
   .topic-list-item {
