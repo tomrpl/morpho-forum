@@ -216,7 +216,7 @@ div.ac-wrap {
 .post-admin-menu.popup-menu {
   .btn.widget-button {
     border-radius: 0px;
-    color: var(--blue-low-mid);
+    color: var(--quaternary-low-mid);
   }
 }
 
@@ -253,7 +253,7 @@ body {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: var(--whitebis);
+  background: var(--tertiary);
 }
 
 :root {
@@ -353,7 +353,7 @@ html body #main-outlet {
       width: 100%;
       display: flex;
       margin-bottom: 0.5em;
-      background-color: var(--white);
+      background-color: var(--secondary);
       border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
@@ -484,7 +484,7 @@ html body #main-outlet {
 }
 
 .quote-button {
-  background-color: var(--blue-low-mid);
+  background-color: var(--quaternary-low-mid);
   border-radius: 0.5em;
 }
 
@@ -532,5 +532,5 @@ th.posters.topic-list-data {
 td.topic-list-data.num.age.activity,
 td.topic-list-data {
   color: var(--text) !important;
-  background: var(white) !important;
+  background: var(--secondary) !important;
 }

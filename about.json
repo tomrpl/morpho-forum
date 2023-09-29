@@ -8,14 +8,10 @@
   },
   "color_schemes": {
     "morpho-light": {
-      "pure_white": "ffffff",
-      "white": "fafafa",
-      "whitebis": "d05454",
-      "blue": "005bc3",
-      "primary": "2f2f2f",
-      "secondary": "f9fcff",
-      "tertiary": "005bc3",
-      "quaternary": "005bc3",
+      "primary": "2f2f2f", // text - black
+      "secondary": "ffffff", // white - deep
+      "tertiary": "fafafa", // white not deep
+      "quaternary": "005bc3", // blue
       "header_background": "f9fcff",
       "header_primary": "122b43",
       "highlight": "e6cb37",
