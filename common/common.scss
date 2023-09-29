@@ -292,7 +292,7 @@ html body #main-outlet {
 // }
 
 /* Style for .nav-pills NOT inside .user-nav */
-.nav-pills:not(.user-nav) > li > a.active {
+.nav-pills:not(.user-nav) > li > a {
   color: var(--primary);
   background-color: var(--quaternary); /* ensure no background color */
   border-radius: 0; /* ensures no border radius, though it might be redundant */
