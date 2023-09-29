@@ -318,6 +318,7 @@ html body #main-outlet {
 
   .topic-list-header {
     min-width: 100%;
+    display: flex;
     .topic-list-data.default {
       width: 76% !important;
     }
@@ -332,6 +333,7 @@ html body #main-outlet {
     }
   }
   .topic-list-item {
+    display: flex;
     .topic-list-data.default {
       width: 76% !important;
     }
