@@ -333,16 +333,16 @@ html body #main-outlet {
   }
   .topic-list-item {
     .topic-list-data.default {
-      width: 76%;
+      width: 76% !important;
     }
     .topic-list-data.num.posts-map.posts {
-      width: 8%;
+      width: 8% !important;
     }
     .topic-list-data.num.views {
-      width: 8%;
+      width: 8% !important;
     }
     .topic-list-data.num.age {
-      width: 8%;
+      width: 8% !important;
     }
   }
   .topic-list-body {
@@ -368,28 +368,28 @@ html body #main-outlet {
         border: 1px solid rgba(var(--primary-rgb), 0.3);
       }
       .topic-list-data.default {
-        width: 76%;
+        width: 76% !important;
         order: 1;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-data.num.posts-map.posts {
-        width: 8%;
+        width: 8% !important;
         order: 2;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-data.num.views {
-        width: 8%;
+        width: 8% !important;
         order: 3;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-data.age {
-        width: 8%;
+        width: 8% !important;
         order: 4;
         display: flex;
         justify-content: center;
