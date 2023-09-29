@@ -161,9 +161,9 @@ input[type="color"],
 div.ac-wrap {
   border-radius: 5px;
 }
-
+.fa.d-icon.d-icon-bars.svg-icon.svg-node,
 .fa.d-icon.d-icon-search.svg-icon.svg-node {
-  fill: blue;
+  fill: var(--quaternary);
 }
 .menu-panel.drop-down {
   margin-top: 1em;
