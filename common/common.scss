@@ -277,7 +277,7 @@ html body #main-outlet {
   }
 }
 
-.nav-pills:not(.user-nav) > li a.active,
+// .nav-pills:not(.user-nav) > li a.active,
 .nav-pills:not(.user-nav) > li > a {
   border-radius: 0.5em;
 }
@@ -399,12 +399,6 @@ html body #main-outlet {
         // margin-bottom: 0.25em;
       }
       .title {
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 170%;
-      }
-      .contents {
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
