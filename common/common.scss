@@ -132,7 +132,7 @@
   color: var(--primary);
 }
 .list-controls .navigation-container .category-breadcrumb {
-  color: var(--quaternary);
+  color: var(--quaternary) !important;
 }
 .mobile-view {
   .cm-header-links {

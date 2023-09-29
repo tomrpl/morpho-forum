@@ -12,7 +12,7 @@
       "secondary": "ffffff", // white - deep
       "tertiary": "fafafa", // white not deep
       "quaternary": "005bc3", // blue
-      "header_background": "f9fcff",
+      "header_background": "ffffff",
       "header_primary": "122b43",
       "highlight": "e6cb37",
       "danger": "d05454",
