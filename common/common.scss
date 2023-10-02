@@ -210,8 +210,9 @@ div.ac-wrap {
 // .topic-footer-buttons.topic-notifications-button {
 //   color: red !important;
 // }
-.more-topics__browse-more {
-  color: red !important;
+.more-topics__browse-more,
+.more-topics__browse-more a {
+  color: var(--primary) !important;
 }
 .drop-down-mode .active .icon:hover {
   border: 1px solid transparent;
