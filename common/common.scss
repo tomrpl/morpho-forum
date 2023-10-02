@@ -216,13 +216,6 @@ div.ac-wrap {
   border-left-color: var(--quaternary);
 }
 
-// graceful ish style
-// @mixin box-shadow($value: 0px) {
-//   box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
-//     0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-//     0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-//     0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
-// }
 html,
 body {
   font-family: "Inter", sans-serif;
@@ -319,7 +312,7 @@ html body #main-outlet {
   border-spacing: 0 0.25em;
   display: contents;
 
-  .topic-list-header.topic-list-data {
+  .topic-list-header {
     width: 100%;
     border-radius: 1em;
     // display: flex;
@@ -372,6 +365,34 @@ html body #main-outlet {
 
       &.visited {
         border: 1px solid rgba(var(--primary-rgb), 0.3);
+      }
+      .topic-list-header.default {
+        width: 76% !important;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .topic-list-header.num.posts {
+        width: 8% !important;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .topic-list-header.num.views {
+        width: 8% !important;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .topic-list-header.num.age {
+        width: 8% !important;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .topic-list-data.default {
         width: 76% !important;
