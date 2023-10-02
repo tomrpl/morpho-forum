@@ -269,7 +269,7 @@ html::before {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: +1; // This ensures the background stays behind your website content.
+  z-index: 100000000; // This ensures the background stays behind your website content.
 }
 
 html body #main-outlet {
