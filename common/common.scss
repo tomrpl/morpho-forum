@@ -258,6 +258,17 @@ body {
   --d-max-width: 1410px;
   font-family: "Inter", sans-serif;
 }
+html::before {
+  content: "";
+  background-image: url("./assets/blob1.jpg");
+  opacity: 0.5; // This makes the background image 50% transparent.
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; // This ensures the background stays behind your website content.
+}
 
 html body #main-outlet {
   margin-top: 30px;
@@ -310,78 +321,11 @@ html body #main-outlet {
   fill: var(--secondary) !important;
 }
 
-//
-
-// .nav-pills:not(.user-nav) > li a.active,
-// .nav-pills:not(.user-nav) > li > a {
-//   color: var(--secondary) !important;
-//   background-color: var(--quaternary) !important;
-//   border-radius: 0.5em;
-// }
-// .nav-pills:not(.user-nav) > li > a {
-//   border-radius: 0.5em;
-// }
-
-// .user-nav .nav-pills > li > a {
-//   border-radius: 0.5em; /* you can adjust the value as needed */
-//   color: white;
-//   background-color: rgb(60, 200, 50);
-// }
-
-/* Style for .nav-pills NOT inside .user-nav */
-// .nav-pills:not(.user-nav) > li > a {
-//   color: var(--primary);
-//   background-color: var(--quaternary); /* ensure no background color */
-//   // border-radius: 0; /* ensures no border radius, though it might be redundant */
-// }
-// Topic List
-
-// @keyframes background-fade-highlight {
-//   0% {
-//     background-color: var(--highlight-low);
-//   }
-//   100% {
-//     background-color: var(--secondary);
-//   }
-// }
-
 .full-width .contents .topic-list {
   border-collapse: separate;
   border-spacing: 0 0.25em;
   display: contents;
 
-  // .topic-list-header {
-  //   width: 100%;
-  //   border-radius: 1em;
-  //   // display: flex;
-  //   .topic-list-data.default {
-  //     width: 76% !important;
-  //   }
-  //   .topic-list-data.num.posts {
-  //     width: 8% !important;
-  //   }
-  //   .topic-list-data.num.views {
-  //     width: 8% !important;
-  //   }
-  //   .topic-list-data.num.age {
-  //     width: 8% !important;
-  //   }
-  // }
-  // .topic-list-item {
-  //   display: flex;
-  //   .topic-list-data.default {
-  //     width: 76% !important;
-  //   }
-  //   .topic-list-data.num.posts-map.posts {
-  //     width: 8% !important;
-  //   }
-  //   .topic-list-data.num.views {
-  //     width: 8% !important;
-  //   }
-  //   .topic-list-data.num.age {
-  //     width: 8% !important;
-  //   }
-  // }
   .topic-list-body {
     display: contents;
     .topic-list-item-separator {
