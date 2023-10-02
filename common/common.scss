@@ -74,7 +74,7 @@
 
 .topic-list .topic-list-header .topic-list-data {
   color: var(--primary) !important;
-  font-weight: 400;
+  font-weight: 300;
   padding: 1em 1em 0em 1em;
 }
 .topic-list .topic-list-header .topic-list-data,
@@ -468,6 +468,9 @@ html body #main-outlet {
         font-style: normal;
         font-weight: 700;
         line-height: 170%;
+      }
+      .topic-list .topic-excerpt {
+        font-weight: 400;
       }
     }
     // .posts-map {
