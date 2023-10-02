@@ -373,23 +373,28 @@ html body #main-outlet {
         justify-content: center;
         align-items: center;
       }
+      .topic-list-header.posters {
+        width: 0% !important;
+        display: none;
+        order: 5;
+      }
       .topic-list-header.num.posts {
         width: 8% !important;
-        order: 1;
+        order: 2;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-header.num.views {
         width: 8% !important;
-        order: 1;
+        order: 3;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .topic-list-header.num.age {
         width: 8% !important;
-        order: 1;
+        order: 4;
         display: flex;
         justify-content: center;
         align-items: center;
