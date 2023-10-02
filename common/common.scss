@@ -276,8 +276,7 @@ html body #main-outlet {
 .nav-pills:not(.user-nav) > li > a {
   border-radius: 0.5em;
 }
-.nav-pills:not(.user-nav) > li a:not(.active),
-.nav-pills:not(.user-nav) > li > a {
+.nav-pills:not(.user-nav) > li a:not(.active) {
   border: none;
   text-decoration: underline;
   color: var(--quaternary) !important;
