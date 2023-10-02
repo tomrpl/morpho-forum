@@ -20,15 +20,15 @@
       "love": "005bc3"
     },
     "morpho-dark": {
-      "primary": "#fafafa",
-      "secondary": "#000000",
-      "tertiary": "#191d20",
-      "quaternary": "#005bc3",
-      "header_background": "#000000",
-      "header_primary": "#ffffff",
-      "highlight": "#e6cb37",
-      "danger": "#c73e59",
-      "success": "#c73e59",
+      "primary": "fafafa",
+      "secondary": "000000",
+      "tertiary": "191d20",
+      "quaternary": "005bc3",
+      "header_background": "000000",
+      "header_primary": "ffffff",
+      "highlight": "e6cb37",
+      "danger": "c73e59",
+      "success": "c73e59",
       "love": "005bc3"
     }
   }
