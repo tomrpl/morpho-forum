@@ -353,6 +353,16 @@ html body #main-outlet {
         width: 100%;
       }
     }
+    .topic-list-header {
+      width: 100%;
+      display: flex;
+      margin-bottom: 0.5em;
+      background-color: var(--secondary);
+      border: 1px solid rgba(var(--primary-rgb), 0.2);
+      border-radius: 1em;
+      position: relative;
+      overflow: hidden;
+    }
     .topic-list-item {
       width: 100%;
       display: flex;
@@ -365,42 +375,6 @@ html body #main-outlet {
 
       &.visited {
         border: 1px solid rgba(var(--primary-rgb), 0.3);
-      }
-      .topic-list-header.default {
-        width: 76% !important;
-        order: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      // .topic-list-header.posters {
-      //   width: 0% !important;
-      //   display: none;
-      //   order: 5;
-      // }
-      .topic-list-header.num.posts {
-        padding: 1em 1em;
-        width: 8% !important;
-        order: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .topic-list-header.num.views {
-        padding: 1em 1em;
-        width: 8% !important;
-        order: 3;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .topic-list-header.num.age {
-        padding: 1em 1em;
-        width: 8% !important;
-        order: 4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
       }
       .topic-list-data.default {
         width: 76% !important;
