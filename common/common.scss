@@ -379,6 +379,7 @@ html body #main-outlet {
       //   order: 5;
       // }
       .topic-list-header.num.posts {
+        padding: 1em 1em;
         width: 8% !important;
         order: 2;
         display: flex;
@@ -386,6 +387,7 @@ html body #main-outlet {
         align-items: center;
       }
       .topic-list-header.num.views {
+        padding: 1em 1em;
         width: 8% !important;
         order: 3;
         display: flex;
@@ -393,6 +395,7 @@ html body #main-outlet {
         align-items: center;
       }
       .topic-list-header.num.age {
+        padding: 1em 1em;
         width: 8% !important;
         order: 4;
         display: flex;
