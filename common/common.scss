@@ -207,6 +207,9 @@ div.ac-wrap {
   color: (--primary);
 }
 
+.topic-notifications-button.ember-view {
+  color: red;
+}
 .drop-down-mode .active .icon:hover {
   border: 1px solid transparent;
   border-radius: 0.25em;
