@@ -268,7 +268,7 @@ body::before {
   background: url("https://cdn.morpho.org/images/backgrounds/forum/background-forum.jpg")
     no-repeat center center;
   background-size: cover;
-  z-index: +1; /* This ensures that the image stays below other content */
+  z-index: 0; /* This ensures that the image stays below other content */
 }
 
 html body #main-outlet {
@@ -279,7 +279,7 @@ html body #main-outlet {
   max-width: 1400px;
   border-radius: 24px;
   border: 0.5px solid rgba(0, 0, 0, 0.3);
-
+  z-index: +1;
   .archetype-regular & {
     min-height: 500px;
   }
