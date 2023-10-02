@@ -312,38 +312,38 @@ html body #main-outlet {
   border-spacing: 0 0.25em;
   display: contents;
 
-  .topic-list-header {
-    width: 100%;
-    border-radius: 1em;
-    // display: flex;
-    .topic-list-data.default {
-      width: 76% !important;
-    }
-    .topic-list-data.num.posts {
-      width: 8% !important;
-    }
-    .topic-list-data.num.views {
-      width: 8% !important;
-    }
-    .topic-list-data.num.age {
-      width: 8% !important;
-    }
-  }
-  .topic-list-item {
-    display: flex;
-    .topic-list-data.default {
-      width: 76% !important;
-    }
-    .topic-list-data.num.posts-map.posts {
-      width: 8% !important;
-    }
-    .topic-list-data.num.views {
-      width: 8% !important;
-    }
-    .topic-list-data.num.age {
-      width: 8% !important;
-    }
-  }
+  // .topic-list-header {
+  //   width: 100%;
+  //   border-radius: 1em;
+  //   // display: flex;
+  //   .topic-list-data.default {
+  //     width: 76% !important;
+  //   }
+  //   .topic-list-data.num.posts {
+  //     width: 8% !important;
+  //   }
+  //   .topic-list-data.num.views {
+  //     width: 8% !important;
+  //   }
+  //   .topic-list-data.num.age {
+  //     width: 8% !important;
+  //   }
+  // }
+  // .topic-list-item {
+  //   display: flex;
+  //   .topic-list-data.default {
+  //     width: 76% !important;
+  //   }
+  //   .topic-list-data.num.posts-map.posts {
+  //     width: 8% !important;
+  //   }
+  //   .topic-list-data.num.views {
+  //     width: 8% !important;
+  //   }
+  //   .topic-list-data.num.age {
+  //     width: 8% !important;
+  //   }
+  // }
   .topic-list-body {
     display: contents;
     .topic-list-item-separator {
@@ -373,11 +373,11 @@ html body #main-outlet {
         justify-content: center;
         align-items: center;
       }
-      .topic-list-header.posters {
-        width: 0% !important;
-        display: none;
-        order: 5;
-      }
+      // .topic-list-header.posters {
+      //   width: 0% !important;
+      //   display: none;
+      //   order: 5;
+      // }
       .topic-list-header.num.posts {
         width: 8% !important;
         order: 2;
