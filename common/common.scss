@@ -258,18 +258,17 @@ body {
   --d-max-width: 1410px;
   font-family: "Inter", sans-serif;
 }
-html::before {
+body::before {
   content: "";
-  background-image: url("./assets/blob1.jpg");
-  width: 100px;
-  height: 100px;
-  opacity: 0.8; // This makes the background image 50% transparent.
+  position: fixed;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 100000000; // This ensures the background stays behind your website content.
+  width: 100%;
+  height: 100%;
+  background: url("https://cdn.morpho.org/images/backgrounds/forum/background-forum.jpg")
+    no-repeat center center;
+  background-size: cover;
+  //z-index: -1; /* This ensures that the image stays below other content */
 }
 
 html body #main-outlet {
