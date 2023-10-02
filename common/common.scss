@@ -176,6 +176,10 @@ div.ac-wrap {
   border: 1px solid var(--primary-low-mid);
 }
 
+.button.btn.btn-icon-text.btn-default#create-topic svg.fa.d-icon.d-icon-plus {
+  fill: var(--secondary);
+}
+
 .btn.no-text .d-icon,
 .btn.json-editor-btn-collapse .d-icon,
 .btn.json-editor-btn-delete .d-icon {
