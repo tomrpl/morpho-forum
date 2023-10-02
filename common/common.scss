@@ -287,6 +287,11 @@ html body #main-outlet {
   color: var(--secondary);
   background-color: var(--quaternary);
 }
+
+.btn.d-icon.d-icon-plus.svg-icon.svg-string {
+  fill: var(--secondary);
+}
+
 //
 
 // .nav-pills:not(.user-nav) > li a.active,
