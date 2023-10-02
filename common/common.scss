@@ -268,7 +268,7 @@ body::before {
   background: url("https://cdn.morpho.org/images/backgrounds/forum/background-forum.jpg")
     no-repeat center center;
   background-size: cover;
-  //z-index: -1; /* This ensures that the image stays below other content */
+  z-index: +1; /* This ensures that the image stays below other content */
 }
 
 html body #main-outlet {
