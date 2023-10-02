@@ -275,6 +275,8 @@ html body #main-outlet {
 .nav-pills:not(.user-nav) > li a.active,
 .nav-pills:not(.user-nav) > li > a {
   border-radius: 0.5em;
+  border-color: red;
+  border: 2px solid;
 }
 
 //
