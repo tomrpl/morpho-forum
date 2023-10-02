@@ -1,4 +1,3 @@
-// handle the padding by hand, easier!
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 //custom search banner customization
 .custom-search-banner-wrap {
@@ -187,7 +186,9 @@ div.ac-wrap {
 .btn.json-editor-btn-delete .d-icon {
   color: var(--secondary);
 }
-
+.btn .d-icon {
+  color: var(--secondary);
+}
 .user-menu .quick-access-panel li a > div,
 .user-menu .quick-access-panel li button > div {
   color: rgba(var(--primary-rgb), 0.8);
