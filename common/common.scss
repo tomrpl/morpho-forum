@@ -282,6 +282,11 @@ html body #main-outlet {
   color: var(--quaternary) !important;
 }
 
+.btn:not(.themes-tab):not(.components-tab),
+.select-kit.dropdown-select-box .dropdown-select-box-header {
+  color: var(--secondary);
+  background-color: var(--quaternary);
+}
 //
 
 // .nav-pills:not(.user-nav) > li a.active,
