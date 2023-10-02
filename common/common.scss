@@ -28,7 +28,7 @@
     border-radius: 0.25em;
     min-height: 40px;
     &:focus {
-      color: var(--text);
+      color: var(--primary);
       outline: 3px solid rgba(var(--primary-rgb), 0.35);
     }
   }
@@ -44,7 +44,7 @@
   .search-menu .search-input {
     border-color: var(--tertiary-hover);
     border-radius: 0.5em;
-    outline: 1px solid var(--tertiary-hover);
+    outline: 1px solid var(--primary);
   }
   .results {
     top: 43px;
@@ -176,6 +176,10 @@ div.ac-wrap {
   border: 1px solid var(--primary-low-mid);
 }
 
+.user-menu .quick-access-panel li a > div,
+.user-menu .quick-access-panel li button > div {
+  color: rgba(var(--primary-rgb), 0.2);
+}
 .drop-down-mode .active .icon {
   border: 1px solid transparent;
   border-radius: 0.25em;
