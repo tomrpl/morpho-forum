@@ -176,6 +176,12 @@ div.ac-wrap {
   border: 1px solid var(--primary-low-mid);
 }
 
+.btn.no-text .d-icon,
+.btn.json-editor-btn-collapse .d-icon,
+.btn.json-editor-btn-delete .d-icon {
+  color: var(--secondary);
+}
+
 .user-menu .quick-access-panel li a > div,
 .user-menu .quick-access-panel li button > div {
   color: rgba(var(--primary-rgb), 0.8);
