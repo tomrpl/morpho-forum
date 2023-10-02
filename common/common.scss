@@ -261,7 +261,9 @@ body {
 html::before {
   content: "";
   background-image: url("./assets/blob1.jpg");
-  opacity: 0.5; // This makes the background image 50% transparent.
+  width: 100px;
+  height: 100px;
+  opacity: 0.8; // This makes the background image 50% transparent.
   top: 0;
   left: 0;
   bottom: 0;
