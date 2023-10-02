@@ -293,6 +293,8 @@ html body #main-outlet {
 .nav-pills:not(.user-nav) > li a:not(.active) {
   border: none;
   text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1px;
   color: var(--quaternary) !important;
 }
 
