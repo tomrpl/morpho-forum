@@ -207,12 +207,14 @@ div.ac-wrap {
   color: (--primary);
 }
 
-// .topic-footer-buttons.topic-notifications-button {
-//   color: red !important;
-// }
 .more-topics__browse-more a {
   color: var(--quaternary) !important;
 }
+
+.reason * {
+  color: var(--quaternary) !important;
+}
+
 .drop-down-mode .active .icon:hover {
   border: 1px solid transparent;
   border-radius: 0.25em;
