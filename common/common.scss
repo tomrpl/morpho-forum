@@ -289,7 +289,7 @@ body {
 html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
-  background: rgba(246, 246, 246, 0.993) !important;
+  background: var(--tertiary) !important;
   padding: 3em 3em 5%;
   max-width: 1400px;
   border-radius: 24px;
