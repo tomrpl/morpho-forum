@@ -154,15 +154,15 @@
 .admin-list-item {
   // Setting text color for all direct child <td> elements to black
   > td {
-    color: black;
+    color: var(--primary);
   }
 
   // Setting text color for all links to black
   a {
-    color: black;
+    color: var(--primary);
     // Ensure the color remains black even after being visited
     &:visited {
-      color: black;
+      color: var(--primary);
     }
   }
 }
@@ -196,7 +196,7 @@ div.ac-wrap {
 }
 
 .btn.btn-icon-text.btn-default#create-topic svg.fa.d-icon.d-icon-plus {
-  fill: var(--secondary) !important;
+  fill: #fbfbfb !important;
 }
 
 .btn.no-text .d-icon,
