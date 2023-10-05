@@ -336,6 +336,7 @@ html body #main-outlet {
 .nav-pills:not(.user-nav) > li a.active,
 .nav-pills:not(.user-nav) > li > a {
   border-radius: 0.5em;
+  color: #fbfbfb !important;
 }
 .nav-pills:not(.user-nav) > li a:not(.active) {
   border: none;
