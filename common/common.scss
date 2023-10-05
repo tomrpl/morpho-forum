@@ -202,10 +202,10 @@ div.ac-wrap {
 .btn.no-text .d-icon,
 .btn.json-editor-btn-collapse .d-icon,
 .btn.json-editor-btn-delete .d-icon {
-  color: var(--secondary);
+  color: #fbfbfb;
 }
 .btn .d-icon {
-  color: var(--secondary);
+  color: #fbfbfb;
 }
 .a:visited {
   color: var(--quaternary);
@@ -347,12 +347,12 @@ html body #main-outlet {
 
 .btn:not(.themes-tab):not(.components-tab),
 .select-kit.dropdown-select-box .dropdown-select-box-header {
-  color: var(--secondary);
+  color: #fbfbfb;
   background-color: var(--quaternary);
 }
 
 .btn.d-icon {
-  fill: var(--secondary) !important;
+  fill: #fbfbfb !important;
 }
 
 .full-width .contents .topic-list {
