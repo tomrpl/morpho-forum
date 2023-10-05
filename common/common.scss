@@ -351,7 +351,9 @@ html body #main-outlet {
   color: #fbfbfb;
   background-color: var(--quaternary);
 }
-
+.cooked a {
+  color: var(--quaternary);
+}
 .btn.d-icon {
   fill: #fbfbfb !important;
 }
