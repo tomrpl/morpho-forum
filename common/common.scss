@@ -151,6 +151,21 @@
   }
 }
 
+.admin-list-item {
+  // Setting text color for all direct child <td> elements to black
+  > td {
+    color: black;
+  }
+
+  // Setting text color for all links to black
+  a {
+    color: black;
+    // Ensure the color remains black even after being visited
+    &:visited {
+      color: black;
+    }
+  }
+}
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
